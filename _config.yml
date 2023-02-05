@@ -142,9 +142,9 @@ environment: production
 
 analytics:
   provider: "google-gtag"
-  google:
+  google-gtag:
     tracking_id: "G-8HS3M2FV6Q"
-    anonymize_ip: true # default
+    anonymize_ip: false # default
 
 category_archive:
   type: liquid
