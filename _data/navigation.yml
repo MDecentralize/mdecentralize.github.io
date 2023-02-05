@@ -1,0 +1,18 @@
+main:
+  - title: "ARTICLES"
+    url: /posts/
+  - title: "NEWSLETTER"
+    url: /newsletter/
+  - title: "ABOUT"
+    url: /about/
+
+sidebar:
+  - title: Navigation
+    children:
+      - title: "Categories"
+        url: /categories/
+      - title: "Tags"
+        url: /tags/
+
+
+

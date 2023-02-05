@@ -1,0 +1,182 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: MDecentralize
+subtitle: A curious M.D. documenting his journey
+email: mdecentralize@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A curious M.D. documenting his journey.
+  Doctor learning about productivity, technology, and finance
+twitter_username: mdecentralize
+minimal_mistakes_skin: contrast
+search: true
+locale: en_US
+
+url:
+baseurl:
+# logo: "/assets/images/eagle_head"
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/ # do not put a trailing '/' on here or it breaks [[wikilinks]]
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Breadcrumbs
+breadcrumbs: true
+
+encoding: "utf-8"
+
+# Comments
+comments:
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-titles-from-headings
+
+author:
+  name   : "MDecentralize"
+  avatar : "/assets/images/eagle_head.jpg"
+  bio    : "A young doctor's journey through productivity, technology, and finance."
+  links:
+   # - label: "Website"
+   #   icon: "fas fa-fw fa-link"
+   #   url: "https://"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:mdecentralize@gmail.com
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mdecentralize"
+   # - label: "GitHub"
+   #   icon: "fab fa-fw fa-github"
+   #   url: "https://github.com/heathennox"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@mdecentralize"
+    - label: "Substack"
+      icon: "fas fa-fw fa-bookmark"
+      url: "https://mdecentralize.substack.com"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mdecentralize"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@mdecentralize"
+    - label: "Substack"
+      icon: "fas fa-fw fa-bookmark"
+      url: "https://mdecentralize.substack.com"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      show_date: true
+      sidebar:
+        nav: "sidebar"
+      comments: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+environment: production
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-8HS3M2FV6Q"
+    anonymize_ip: true # default
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+social:
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/mdecentralize"
+    - "https://instagram.com/"
+    - "https://medium.com/@mdecentralize"
+    - "https://mdecentralize.substack.com"
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
+
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
