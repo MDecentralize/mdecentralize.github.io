@@ -142,7 +142,7 @@ environment: production
 
 analytics:
   provider: "google-gtag"
-  google-gtag:
+  google:
     tracking_id: "G-8HS3M2FV6Q"
     anonymize_ip: false # default
 
