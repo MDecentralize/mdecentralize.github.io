@@ -16,7 +16,7 @@
 
 title: MDecentralize
 subtitle: A curious M.D. documenting his journey
-email: mdecentralize@gmail.com
+email: mdecentralize@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A curious M.D. documenting his journey.
   Doctor learning about productivity, technology, and finance
@@ -88,7 +88,7 @@ author:
       url: "https://twitter.com/mdecentralize"
    # - label: "GitHub"
    #   icon: "fab fa-fw fa-github"
-   #   url: "https://github.com/heathennox"
+   #   url: "https://github.com/mdecentralize"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
