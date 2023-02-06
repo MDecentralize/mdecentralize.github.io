@@ -141,9 +141,9 @@ defaults:
 environment: production
 
 analytics:
-  provider: "google-universal"
+  provider: "g-tag"
   google:
-    tracking_id: "G-8HS3M2FV6Q"
+    tracking_id: "G-7XF5EKDL9T"
     anonymize_ip: false # default
 
 category_archive:
