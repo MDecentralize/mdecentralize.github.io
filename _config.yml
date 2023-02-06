@@ -140,11 +140,11 @@ defaults:
 
 environment: production
 
-analytics:
-  provider: "g-tag"
-  google:
-    tracking_id: "G-7XF5EKDL9T"
-    anonymize_ip: false # default
+# analytics:
+#  provider: "g-tag"
+#  google:
+#    tracking_id: "G-7XF5EKDL9T"
+#    anonymize_ip: false # default
 
 category_archive:
   type: liquid
