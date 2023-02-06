@@ -138,7 +138,8 @@ defaults:
       layout: single
       author_profile: true
 
-environment: production
+#environment: production
+JEKYLL_ENV=production
 
 # analytics:
 #  provider: "g-tag"
