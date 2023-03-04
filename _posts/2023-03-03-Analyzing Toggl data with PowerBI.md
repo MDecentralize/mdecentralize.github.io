@@ -16,6 +16,10 @@ sidebar:
 toc: true
 toc_sticky: true
 ---
+I'm a visual person.
+I enjoy data visualizations and I like to learn where I spend my time.
+Here is a quick tutorial showing how you can analyze your Toggl data with PowerBI
+
 ## Download Toggl data
 - In the Reports tab, click on Detailed, then choose the time range
 ![](https://i.imgur.com/hvdYSKg.png)
