@@ -48,8 +48,8 @@ toc_sticky: true
 - Choose the 100% Stacked column chart in Visualizations
 	- Then select your data and put them in the corresponding axes
 
-	![](https://i.imgur.com/21dFZtj.png)
+	![](https://i.imgur.com/gldltjY.png)
 
 - You should have a weekly breakdown of your Projects
-![](https://i.imgur.com/KjjlfWW.png)
+![](https://i.imgur.com/21dFZtj.png)
 
