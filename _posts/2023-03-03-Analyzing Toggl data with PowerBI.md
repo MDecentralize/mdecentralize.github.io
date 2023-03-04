@@ -7,8 +7,8 @@ date_format: "%Y-%m-%d"
 permalink:
 excerpt:
 
-categories: [Blog]
-tags: []
+categories: [Article]
+tags: [productivity]
 
 sidebar:
   nav: "sidebar"
