@@ -16,7 +16,6 @@ sidebar:
 toc: true
 toc_sticky: true
 ---
-
 ## Download Toggl data
 - In the Reports tab, click on Detailed, then choose the time range
 ![](https://i.imgur.com/hvdYSKg.png)
