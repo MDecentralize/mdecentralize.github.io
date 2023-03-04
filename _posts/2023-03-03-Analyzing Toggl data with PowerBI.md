@@ -57,3 +57,6 @@ Here is a quick tutorial showing how you can analyze your Toggl data with PowerB
 - You should have a weekly breakdown of your Projects
 ![](https://i.imgur.com/21dFZtj.png)
 
+- Or you can choose to do it by Description
+![](https://i.imgur.com/jQ2KK56.png)
+
